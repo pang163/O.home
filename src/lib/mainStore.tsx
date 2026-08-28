@@ -11,7 +11,8 @@ export type WidgetType =
   | 'banner' | 'member'                 // 고정 요소 (삭제 불가)
   | 'menu' | 'memo' | 'diary' | 'latest'
   | 'dday' | 'todo' | 'upcoming' | 'freetext' | 'deco' | 'memoboard'
-  | 'apply';   // 'image'는 deco(장식 이미지+링크)로 일원화 (v1.9) · apply = 커미션 신청자 (v2.0)
+  | 'apply'
+  | 'profile' ;   // 'image'는 deco(장식 이미지+링크)로 일원화 (v1.9) · apply = 커미션 신청자 (v2.0)
 
 export interface WidgetConf {
   id: string;
