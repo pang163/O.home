@@ -54,7 +54,6 @@ export const WIDGET_META: Record<WidgetType, { title: string; desc: string }> = 
   deco: { title: '이미지', desc: '패널 없이 이미지만' },
   memoboard: { title: 'STICKY', desc: '스티커 메모 미니보드 — 클릭 시 메모장 (4.6)' },
   apply: { title: 'COMMISSION', desc: '커미션 신청자 — 마감 빠른 순 (몇 명까지 볼지 설정)' },
-  intro: { title: '소개', desc: '공지사항' }
 };
 
 /** 같은 종류를 여러 개 추가할 수 있는 위젯 (v1.9 사용자 확정 — 나머지는 하나만) */
